@@ -6,6 +6,10 @@
   background-color: green;
 }
 
+.yellow {
+  background-color: yellow;
+}
+
 .sm {
   width: 25px;
   height: 25px;
@@ -21,6 +25,11 @@
   height: 75px;
 }
 
+.xl {
+  width: 100px;
+  height: 100px;
+}
+
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -29,4 +38,8 @@ ul {
 ul > div {
   border: solid 1px black;
   margin: 1rem;
+}
+
+.circles {
+  border-radius: 200px;
 }
